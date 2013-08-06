@@ -1,5 +1,7 @@
 # WEMP development server
 
+[http://dre1080.github.io/wemp-config] (http://dre1080.github.io/wemp-config)
+
 1. First download and install the latest of:
   + [PHP NTS] (http://windows.php.net)
   + [MySQL] (http://www.mysql.com/downloads/mysql)
@@ -26,6 +28,6 @@
 
 11. Run `Easy WEMP` from the start menu.
 
-12. Go to http://localhost/index.php to make sure its working.
+12. Go to [http://localhost/index.php] (http://localhost/index.php) to make sure its working.
 
 13. Voila! A monitored WEMP server.
