@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print" />
+
+    <title>Wemp-config by dre1080</title>
+  </head>
+
+  <body>
+
+    <header>
+      <div class="container">
+        <h1>Wemp-config</h1>
+        <h2>Instructions on setting up a WEMP (Windows 7, Nginx &quot;EngineX&quot;, MySQL, PHP) development server</h2>
+
+        <section id="downloads">
+          <a href="https://github.com/dre1080/wemp-config/zipball/master" class="btn">Download as .zip</a>
+          <a href="https://github.com/dre1080/wemp-config/tarball/master" class="btn">Download as .tar.gz</a>
+          <a href="https://github.com/dre1080/wemp-config" class="btn btn-github"><span class="icon"></span>View on GitHub</a>
+        </section>
+      </div>
+    </header>
+
+    <div class="container">
+      <section id="main_content">
+        <h1>
+<a name="setting-up-a-wemp-development-server" class="anchor" href="#setting-up-a-wemp-development-server"><span class="octicon octicon-link"></span></a>Setting up a WEMP development server</h1>
+
+<ol>
+<li>
+<p>First download and install the latest of:</p>
+
+<ul>
+<li><a href="http://windows.php.net">PHP NTS</a></li>
+<li><a href="http://www.mysql.com/downloads/mysql">MySQL</a></li>
+<li><a href="http://www.mysql.com/downloads/workbench">MySQL Workbench</a></li>
+<li><a href="http://wiki.nginx.org">Nginx</a></li>
+</ul>
+</li>
+<li><p>Run Easy_WEMP-1.13-win32.exe</p></li>
+<li><p>Uncheck all values when asked to install any of the above packages.</p></li>
+<li><p>Read <code>EWEMP-README.txt</code></p></li>
+<li><p>Edit <code>ewemp.ini</code> file in install directory, replace with the example one in this repo.</p></li>
+<li><p>Replace values in <code>ewemp.ini</code> with values corresponding to the installed packages above.</p></li>
+<li><p>Check out example nginx config to work with php-cgi. <code>fastcgi.conf</code> &amp; <code>nginx.conf</code>.</p></li>
+<li><p>Edit your nginx config in your nginx installation directory.</p></li>
+<li><p>Check your <code>php.ini</code> in your php installation directory. If it doesn't exist, rename <code>php.ini-production</code> to <code>php.ini</code></p></li>
+<li><p>Check your <code>my.ini</code> in your mysql installation directory.</p></li>
+<li><p>Run <code>Easy WEMP</code> from the start menu.</p></li>
+<li><p>Go to http://localhost/index.php to make sure its working.</p></li>
+<li><p>Voila! A monitored WEMP server.</p></li>
+</ol>
+      </section>
+    </div>
+
+    
+  </body>
+</html>
