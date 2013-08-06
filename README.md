@@ -1,11 +1,10 @@
 # WEMP development server
 
 1. First download and install the latest of:
-
-+ [PHP NTS] (http://windows.php.net)
-+ [MySQL] (http://www.mysql.com/downloads/mysql)
-+ [MySQL Workbench] (http://www.mysql.com/downloads/workbench)
-+ [Nginx] (http://wiki.nginx.org)
+  + [PHP NTS] (http://windows.php.net)
+  + [MySQL] (http://www.mysql.com/downloads/mysql)
+  + [MySQL Workbench] (http://www.mysql.com/downloads/workbench)
+  + [Nginx] (http://wiki.nginx.org)
 
 2. Run Easy_WEMP-1.13-win32.exe
 
